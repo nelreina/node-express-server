@@ -1,0 +1,17 @@
+{
+  "name": "api-backoffice",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --watch src src/index"
+  },
+  "dependencies": {
+    "@nelreina/node-express": "^3.3.14",
+    "@nelreina/node-log4js": "^3.2.0",
+    "dotenv": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
